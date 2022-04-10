@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Rubik+Glitch&display=swap");
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(200, 85, 85);
+}
+
+.button-container {
+  border: 2px solid black;
+  padding: 10px;
+  border-radius: 7px;
+  box-shadow: inset 0 20px 4px -15px rgba(255, 255, 255, 0.8);
+}
+
+.button-container button {
+  cursor: pointer;
+  outline: none;
+  width: 120px;
+  height: 75px;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 25px;
+  color: rgb(255, 255, 255);
+  text-shadow: 0 2px 5px black;
+  background: linear-gradient(to top, #696969, #aaaaaa);
+  border: 2px solid black;
+  border-radius: 7px;
+  box-shadow: inset 0 20px 4px -15px rgba(255, 255, 255, 0.5),
+    0 12px 12px 0 rgba(0, 0, 0, 0.3);
+}
+
+.button-container button:hover {
+  background: linear-gradient(to bottom, #696969, #aaaaaa);
+}
+
+.button-container button:active {
+  transform: translateY(3px);
+  box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.3);
+}
